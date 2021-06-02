@@ -3,7 +3,10 @@ public class App {
 
 	public static void main(String[] args) {
 	
-		ausgabe("hu");
+		Test test = new Test();
+		ausgabe(test.getTestStr());
+		test.setTestStr("Hallo Setter!");
+		ausgabe(test.getTestStr());
 	
 	}
 	
